@@ -12,12 +12,29 @@
     padding-top: 30px;
     padding-left: 50px;
 }
-#about div.video{
+#main section.spotlight div{
+    position: absolute;
+    right: 0;
+    margin-right: 60px;
+    display: flex;
+    color: #fb6394;
+}
+#main section.spotlight div h5{
+    margin-left: 10px;
+    font-family: poppins_bold;
+    font-size: 20px;
+}
+#main section.spotlight p{
+    font-family: 'poppins_bold';
+    font-size: 20px;
+}
+
+#vid div.video{
     margin-left: 200px;
     margin-top: -30px;
     margin-bottom: 60px;
 }
-#about div.video video{
+#vid div.video video{
     width: 80%;
     border-radius: 20px;
 }
@@ -220,4 +237,35 @@
 }
 #products section.wrapper ul li div.logo img{
     width: 64px;
+}
+
+#about{
+    margin-top: 150px;
+	margin-bottom: 60px;
+}
+#about h1{
+    font-family: poppins_bold;
+    margin-bottom: 50px; 
+	margin-left: 38%;
+}
+#about .wrapper{
+	display: flex; justify-content: space-between;
+}
+#about div.right img{
+	width: 500px;
+	border-radius: 18px;
+}
+#about p{
+	font-family: poppins_meduim;
+	margin-bottom: 20px;
+	margin-right: 70px;
+	margin-top: 30px;
+	width: 100%;
+}
+#about div.left{
+	background: #F5F5F5;
+	margin-right: 20px;
+	border-radius: 18px;
+	padding-left: 50px;
+	padding-right: -30px;
 }
