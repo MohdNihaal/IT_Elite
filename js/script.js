@@ -17,3 +17,4 @@ const observer = new IntersectionObserver((entries) => {
 
 // Start observing the video element
 observer.observe(video);
+

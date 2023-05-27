@@ -1,53 +1,52 @@
 #highlights {
-	margin-top: 80px;
+  margin-top: 80px;
 }
 
 #highlights section.wrapper section.item {
-	background: linear-gradient(#fb6394, #f4f5f7 600px);
-	margin-bottom: 80px;
-	display: flex;
-	justify-content: space-between;
+  background: linear-gradient(#fb6394, #f4f5f7 600px);
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #highlights section.wrapper section.item div.img_container {
-	width: 65%;
+  width: 65%;
 }
 
 #highlights section.wrapper section.item div.img_container img {
-	width: 100%;
-	display: block;
+  width: 100%;
+  display: block;
 }
 
 #highlights section.wrapper section.item div.content_box {
-	width: 33%;
-	padding-top: 20px;
+  width: 33%;
+  padding-top: 20px;
 }
 
 #highlights section.wrapper section.item div.content_box span.label {
-	display: block;
-	text-transform: uppercase;
-	font-size: 12px;
-	margin-bottom: 16px;
-	font-weight: 500;
-
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 16px;
+  font-weight: 500;
 }
 
 #highlights section.wrapper section.item div.content_box h3 {
-	font-size: 36px;
-	font-weight: 600;
-	margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 24px;
 }
 
 #highlights section.wrapper div.item div.content_box p {
-	font-size: 20px;
-	margin-bottom: 24px;
+  font-size: 20px;
+  margin-bottom: 24px;
 }
 
 #highlights section.wrapper div.item div.content_box a.button {
-	font-size: 16px;
-	color: #0053cc;
+  font-size: 16px;
+  color: #0053cc;
 }
 
 #highlights section.wrapper div.item div.content_box a.button img {
-	display: inline-block;
+  display: inline-block;
 }
