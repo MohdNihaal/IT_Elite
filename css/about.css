@@ -19,9 +19,7 @@ main section.ab {
   box-shadow: 5px 10px 8px 10px #888888;
 }
 
-main section.ab div.left {
-    
-}
+main section.ab div.left {}
 
 main section.ab h2 {
   font-family: "poppins_semibold";
