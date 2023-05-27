@@ -1,6 +1,8 @@
-main {}
+main {
+}
 
-main div.heading {}
+main div.heading {
+}
 
 main div.heading h1 {
   font-family: "poppins_bold";
@@ -11,25 +13,32 @@ main div.heading h1 {
 }
 
 main section.ab {
-    margin-top: 40px;
+  margin-top: 40px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+main section.ab div.left {
+    
 }
 
 main section.ab h2 {
-  font-family: "poppins_semibold"; 
+  font-family: "poppins_semibold";
   text-align: center;
   margin-top: 90px;
 }
 
 main section.ab p {
-    margin-top: 90px;
-    padding-left: 40px;
+  margin-top: 90px;
+  padding-left: 40px;
   font-family: "poppins_regular";
 }
 
 main section.ab img {
-    height: 404px;
-    position: relative;
-    top: -127px;
-    left: 999px;
-    border-radius: 20px;
+  height: 404px;
+  position: relative;
+  top: -127px;
+  left: 909px;
+  border-radius: 20px;
 }
