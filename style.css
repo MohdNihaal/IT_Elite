@@ -23,7 +23,9 @@
 }
 
 
-#products {}
+#products {
+    margin-left: 150px;
+}
 
 #products section.wrapper {}
 
@@ -58,6 +60,7 @@
 	left: 118px;
 	z-index: 1;
     margin: 20px;
+    margin-left: -1px;
 }
 
 #products section.wrapper ul li.one h1 {
@@ -117,7 +120,8 @@
 	top: 13px;
 	left: 115px;
 	z-index: 1;
-
+    margin: 20px;
+    margin-left: -2px;
 }
 
 #products section.wrapper ul li.two h1 {
@@ -137,6 +141,8 @@
 	top: 132px;
 	left: 10px;
 	z-index: 1;
+    border-radius: 18px;
+    margin: 20px;
 }
 
 #products section.wrapper ul li.two a.button {
@@ -175,6 +181,8 @@
 	top: 10px;
 	left: 118px;
 	z-index: 1;
+    margin: 20px;
+    margin-left: -1px;
 }
 
 #products section.wrapper ul li.three h1 {
@@ -194,6 +202,8 @@
 	top: 108px;
 	left: -3px;
 	z-index: 1;
+    margin-left: 35px;
+    border-radius: 10px;
 }
 
 #products section.wrapper ul li.three a.button {
@@ -207,4 +217,7 @@
 	left: 77px;
 	z-index: 1;
     font-family: 'poppins_meduim';
+}
+#products section.wrapper ul li div.logo img{
+    width: 64px;
 }
