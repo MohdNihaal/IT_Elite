@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #highlights {
   margin-top: 80px;
 }
@@ -49,4 +50,47 @@
 
 #highlights section.wrapper div.item div.content_box a.button img {
   display: inline-block;
+=======
+main {
+}
+
+main div.heading {
+}
+
+main div.heading h1 {
+  font-family: "poppins_bold";
+  text-align: center;
+  margin-top: 65px;
+  color: #000;
+  font-size: 50px;
+}
+
+main section.ab {
+  margin-top: 40px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+main section.ab div.left {}
+
+main section.ab h2 {
+  font-family: "poppins_semibold";
+  text-align: center;
+  margin-top: 90px;
+}
+
+main section.ab p {
+  margin-top: 90px;
+  padding-left: 40px;
+  font-family: "poppins_regular";
+}
+
+main section.ab img {
+  height: 404px;
+  position: relative;
+  top: -127px;
+  left: 909px;
+  border-radius: 20px;
+>>>>>>> 8c50eaf72cc5145f1c0645a17e82f90ebe5312f6
 }
