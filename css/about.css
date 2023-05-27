@@ -1,42 +1,53 @@
-main {
+#highlights {
+	margin-top: 80px;
 }
 
-main div.heading {
+#highlights section.wrapper section.item {
+	background: linear-gradient(#fb6394, #f4f5f7 600px);
+	margin-bottom: 80px;
+	display: flex;
+	justify-content: space-between;
 }
 
-main div.heading h1 {
-  font-family: "poppins_bold";
-  text-align: center;
-  margin-top: 65px;
-  color: #000;
-  font-size: 50px;
+#highlights section.wrapper section.item div.img_container {
+	width: 65%;
 }
 
-main section.ab {
-  margin-top: 40px;
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px 8px 10px #888888;
+#highlights section.wrapper section.item div.img_container img {
+	width: 100%;
+	display: block;
 }
 
-main section.ab div.left {}
-
-main section.ab h2 {
-  font-family: "poppins_semibold";
-  text-align: center;
-  margin-top: 90px;
+#highlights section.wrapper section.item div.content_box {
+	width: 33%;
+	padding-top: 20px;
 }
 
-main section.ab p {
-  margin-top: 90px;
-  padding-left: 40px;
-  font-family: "poppins_regular";
+#highlights section.wrapper section.item div.content_box span.label {
+	display: block;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 16px;
+	font-weight: 500;
+
 }
 
-main section.ab img {
-  height: 404px;
-  position: relative;
-  top: -127px;
-  left: 909px;
-  border-radius: 20px;
+#highlights section.wrapper section.item div.content_box h3 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+
+#highlights section.wrapper div.item div.content_box p {
+	font-size: 20px;
+	margin-bottom: 24px;
+}
+
+#highlights section.wrapper div.item div.content_box a.button {
+	font-size: 16px;
+	color: #0053cc;
+}
+
+#highlights section.wrapper div.item div.content_box a.button img {
+	display: inline-block;
 }
