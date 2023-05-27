@@ -58,4 +58,3 @@ hoverElement.onmouseover = function() {
 
 
 incEltNbr("nbr"); /*Call this funtion with the ID-name for that element to increase the number within*/
->>>>>>> 8c50eaf72cc5145f1c0645a17e82f90ebe5312f6
