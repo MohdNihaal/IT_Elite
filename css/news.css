@@ -1,0 +1,12 @@
+.wrapper header {
+
+}
+
+.oneimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgone {
+    height: 70vh;
+}
