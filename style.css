@@ -115,3 +115,24 @@ br.clear {
     font-weight: normal;
     font-style: normal;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+header div.right{
+    margin-top: 60px;
+}
+header div.right ul{
+    display: flex;
+    justify-content: space-between;
+}
+header div.right ul li{
+    padding-right: 50px;
+    font-family: 'poppins_meduim';  
+    color: #fb6394; 
+}
+header div.left img{
+    width: 150px;
+}
