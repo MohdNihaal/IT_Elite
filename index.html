@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./fontello.css">
-    <title>Drop </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fontello.css" />
+    <title>Drop</title>
+  </head>
+  <body>
     <section id="main">
+      <section class="wrapper">
+        <header>
+          <div class="left">
+            <img src="./images/icon-removebg-preview.png" alt="icon" />
+          </div>
+          <div class="right">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="./html/about.html">About</a></li>
+              <li><a href="./html/contact.html">Contact</a></li>
+              <li><a href="./html/extra.html">Extras</a></li>
+            </ul>
+          </div>
+        </header>
+      </section>
+
+      <section class="spotlight">
         <section class="wrapper">
-            <header>
-                <div class="left">
-                    <img src="./images/icon-removebg-preview.png" alt="icon" />         
-                </div>
-                <div class="right">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="./html/about.html">About</a></li>
-                        <li><a href="./html/contact.html">Contact</a></li>
-                        <li><a href="./html/extra.html">Extras</a></li>
-                    </ul>
-                </div>
-            </header>
+          <h1>
+            Give Life, Give Hope: <br />
+            Spreading Awareness for <br />
+            Blood
+          </h1>
         </section>
-        
-        <section class="spotlight">
-            <section class="wrapper">
-                <h1>Give Life, Give Hope: <br> Spreading Awareness for <br> Blood</h1>
-            </section>
-        </section>
+      </section>
     </section>
     <section id="about">
-        <div class="video"><video src="./video/video.mp4" autoplay loop controls></video></div>
+        <div class="video">
+      <video id="myVideo" src="./video/video.mp4" autoplay muted loop></video>
+      </div>
         <!-- more should be added here -->
         </section>
     </section>
@@ -95,5 +101,6 @@
         </section>
     </section>
 
-</body>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
