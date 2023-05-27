@@ -1,0 +1,152 @@
+#contact {
+	margin-top: 20%;
+	background: #000;
+	width: 100%;
+	height: 950px;
+	color: #fff;
+}
+
+#contact section.wrapper {
+	margin-left: 147px;
+}
+
+#contact section.wrapper div.left {}
+
+#contact section.wrapper div.left h3 {
+	margin-top: 5%;
+	font-weight: bolder;
+	font-size: 48px;
+}
+
+#contact section.wrapper div.left p {
+	color: #9b9b9b;
+}
+
+#contact section.wrapper div.left div.testimonial {}
+
+#contact section.wrapper div.left div.testimonial h5 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#contact section.wrapper div.left div.testimonial div.content {}
+
+#contact section.wrapper div.left div.testimonial div.content blockquote {
+	font-style: italic;
+}
+
+#contact section.wrapper div.left div.testimonial div.content h6 {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#contact section.wrapper div.left div.testimonial div.content span.role {
+	color: #9B9B9B;
+}
+
+#contact section.wrapper div.left div.testimonial div.content ul {
+	display: flex;
+	gap: 10px;
+}
+
+#contact section.wrapper div.left div.testimonial div.content ul li {}
+
+#contact section.wrapper div.left div.testimonial div.content ul li img {
+	border-radius: 20px;
+}
+
+#contact section.wrapper div.left div.testimonial div.companies {
+	margin-top: 40px;
+}
+
+#contact section.wrapper div.left div.testimonial div.companies ul {
+	display: flex;
+	gap: 40px;
+}
+
+#contact section.wrapper div.left div.testimonial div.companies ul li {}
+
+#contact section.wrapper div.left div.testimonial div.companies ul li img {}
+
+#contact section.wrapper div.right {
+	border: 1px solid #fff;
+	background: #fff;
+	width: 44%;
+	position: relative;
+	top: -795px;
+	left: 423px;
+	border-radius: 10px;
+	height: 484px;
+}
+
+#contact section.wrapper div.right h4 {
+	color: #000;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	font-weight: bold;
+}
+
+#contact section.wrapper div.right form {
+	margin-left: 27px;
+}
+
+#contact section.wrapper div.right form div.one_by_two {}
+
+#contact section.wrapper div.right form div.one_by_two input {
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 23px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+#contact section.wrapper div.right form div.one_by_two select {
+	color: #000;
+	border: 1px solid #000;
+	padding: 10px 47px;
+	margin-bottom: 20px;
+	margin-left: 11px;
+}
+
+#contact section.wrapper div.right form div.one_by_two select option {
+}
+
+#contact section.wrapper div.right form div.one_by_two select.in {
+	padding: 10px 64px;
+}
+
+#contact section.wrapper div.right form div.one_by_two select.jr {
+	padding: 10px 64px;
+}
+
+#contact section.wrapper div.right form div.one_by_two select.count {
+	padding: 10px 64px;
+}
+
+#contact section.wrapper div.right div.full {
+	margin-left: 30px;
+}
+
+#contact section.wrapper div.right div.full input {}
+
+#contact section.wrapper div.right div.full p {
+	color: #797979;
+}
+
+#contact section.wrapper div.right div.full p a {
+	color: #797979;
+	text-decoration: underline;
+}
+
+#contact section.wrapper div.right div.full div.full1 {}
+
+#contact section.wrapper div.right div.full div.full1 input.sub {
+	border: 1px solid #0056fb;
+	border-radius: 10px;
+	padding: 10px 12px;
+	background: #0056fb;
+	color: #fff;
+	margin-left: 160px;
+	margin-top: 20px;
+}

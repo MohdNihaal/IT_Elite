@@ -18,7 +18,13 @@ const observer = new IntersectionObserver((entries) => {
 // Start observing the video element
 observer.observe(video);
 
+<<<<<<< HEAD
 <p>Beyond the positive impact on recipients, blood donation can also have health benefits for the donors themselves. Regular blood donation stimulates the body to produce fresh blood cells, promoting the maintenance of good cardiovascular health and reducing the risk of certain diseases. Additionally, the pre-donation screening process allows donors to receive a basic medical check-up, providing insights into their overall health status.</p>
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> d61c21883519a01a3305e7bf9cbc30128205e746
 var speed = -10;
 
 /* Call this function with a string containing the ID name to
@@ -52,3 +58,4 @@ hoverElement.onmouseover = function() {
 
 
 incEltNbr("nbr"); /*Call this funtion with the ID-name for that element to increase the number within*/
+>>>>>>> 8c50eaf72cc5145f1c0645a17e82f90ebe5312f6

@@ -1,5 +1,62 @@
+<<<<<<< HEAD
 #highlights {
 	margin-top: 80px;
+=======
+<<<<<<< HEAD
+#highlights {
+  margin-top: 80px;
+}
+
+#highlights section.wrapper section.item {
+  background: linear-gradient(#fb6394, #f4f5f7 600px);
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#highlights section.wrapper section.item div.img_container {
+  width: 65%;
+}
+
+#highlights section.wrapper section.item div.img_container img {
+  width: 100%;
+  display: block;
+}
+
+#highlights section.wrapper section.item div.content_box {
+  width: 33%;
+  padding-top: 20px;
+}
+
+#highlights section.wrapper section.item div.content_box span.label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+#highlights section.wrapper section.item div.content_box h3 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+#highlights section.wrapper div.item div.content_box p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+#highlights section.wrapper div.item div.content_box a.button {
+  font-size: 16px;
+  color: #0053cc;
+}
+
+#highlights section.wrapper div.item div.content_box a.button img {
+  display: inline-block;
+=======
+main {
+>>>>>>> d61c21883519a01a3305e7bf9cbc30128205e746
 }
 
 #highlights section.wrapper section.item {
@@ -32,6 +89,7 @@
 
 }
 
+<<<<<<< HEAD
 #highlights section.wrapper section.item div.content_box h3 {
 	font-size: 36px;
 	font-weight: 600;
@@ -50,4 +108,13 @@
 
 #highlights section.wrapper div.item div.content_box a.button img {
 	display: inline-block;
+=======
+main section.ab img {
+  height: 404px;
+  position: relative;
+  top: -127px;
+  left: 909px;
+  border-radius: 20px;
+>>>>>>> 8c50eaf72cc5145f1c0645a17e82f90ebe5312f6
+>>>>>>> d61c21883519a01a3305e7bf9cbc30128205e746
 }
