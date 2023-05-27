@@ -207,7 +207,81 @@ if (lowercaseText.includes("what are the different types of blood donations")) {
     return "White blood cells play a crucial role in the immune system's defense against infections and diseases. In blood donation, white blood cells are one of the components present in whole blood or specific donation types. They help protect the recipient by fighting off potential pathogens and promoting a healthy immune response.";
   } else if (lowercaseText.includes("can I donate blood if I have a cold or flu")) {
     return "If you have a cold or flu, it's generally recommended to postpone blood donation until you have fully recovered. Donating blood while you're sick can potentially transmit the infection to others and may not be safe for you as a donor. It's important to prioritize your health and the safety of the blood supply.";
-  } else {
+  } else if (lowercaseText.includes("how are you")) {
+    return "I'm an AI, so I don't have feelings, but thank you for asking! How can I help you?";
+  } else if (lowercaseText.includes("what is today's date")) {
+    let today = new Date();
+    let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    return "Today's date is " + today.toLocaleDateString(undefined, options) + ".";
+  } else if (lowercaseText.includes("thank you")) {
+    return "You're welcome! If you have any more questions, feel free to ask.";
+  } else if (lowercaseText.includes("goodbye") || lowercaseText.includes("bye")) {
+    return "Goodbye! Have a great day!";
+  } else if (lowercaseText.includes("how does the chatbot work")) {
+    return "The chatbot works by processing the user's input and generating a response based on predefined patterns and logic.";
+  } else if (lowercaseText.includes("can you provide more information")) {
+    return "Certainly! What specific information are you looking for?";
+  } else if (lowercaseText.includes("what services do you offer")) {
+    return "I can provide information, answer questions, and assist with various topics. Feel free to ask anything!";
+  } else if (lowercaseText.includes("where are you located")) {
+    return "I am a virtual chatbot, so I don't have a physical location. I exist online to help you.";
+  } else if (lowercaseText.includes("how long have you been in operation")) {
+    return "As an AI chatbot, I don't have a specific start date. I have been programmed to assist users and provide helpful information.";
+  } else if (lowercaseText.includes("can you speak multiple languages")) {
+    return "Yes, I can communicate in multiple languages including English, Spanish, French, and more.";
+  } else if (lowercaseText.includes("what is your purpose")) {
+    return "My purpose is to assist and provide information to users like yourself. How can I assist you today?";
+  } else if (lowercaseText.includes("do you have a name")) {
+    return "I am an AI chatbot, so I don't have a personal name. You can call me ChatBot.";
+  } else if (lowercaseText.includes("can you help me with a technical issue")) {
+    return "Yes, I can certainly try to help you with your technical issue. Please provide more details about the problem you're facing.";
+  } else if (lowercaseText.includes("how do I contact support")) {
+    return "To contact support, you can visit our website and find the 'Contact Us' page for more information.";
+  } else if (lowercaseText.includes("what are your hours of operation")) {
+    return "I am available 24/7 to assist you. Feel free to ask your questions at any time.";
+  } else if (lowercaseText.includes("can you recommend a restaurant")) {
+    return "Of course! Can you please specify your location or any specific cuisine preferences?";
+  } else if (lowercaseText.includes("what is the meaning of life")) {
+    return "The meaning of life can be subjective and varies for each individual. It's a philosophical question that has different interpretations.";
+  } else if (lowercaseText.includes("can you tell me a joke")) {
+    return "Sure, here's one for you: Why don't scientists trust atoms? Because they make up everything!";
+  } else if (lowercaseText.includes("tell me a fun fact")) {
+    return "Sure! Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!";
+  } else if (lowercaseText.includes("what is your favorite movie")) {
+    return "As an AI chatbot, I don't have personal preferences or emotions. However, I can recommend popular movies based on different genres if you'd like.";
+  } else if (lowercaseText.includes("can you help me with my homework")) {
+    return "I'll do my best to assist you with your homework. Please provide the details or specific question you need help with.";
+  } else if (lowercaseText.includes("how do I reset my password")) {
+    return "To reset your password, you can visit the login page and click on the 'Forgot Password' link. Follow the instructions provided to reset your password.";
+  } else if (lowercaseText.includes("can you provide some health tips")) {
+    return "Certainly! Here are a few health tips: eat a balanced diet, exercise regularly, get enough sleep, stay hydrated, and manage stress effectively.";
+  } else if (lowercaseText.includes("what are your hobbies")) {
+    return "As an AI chatbot, I don't have hobbies. My main focus is to assist users and provide helpful information.";
+  } else if (lowercaseText.includes("how can I improve my productivity")) {
+    return "To improve productivity, you can try setting clear goals, prioritizing tasks, eliminating distractions, managing your time effectively, and taking regular breaks.";
+  } else if (lowercaseText.includes("can you recommend a book to read")) {
+    return "Certainly! What genre or type of book are you interested in? Fiction, non-fiction, self-help, or something else?";
+  } else if (lowercaseText.includes("what is the best way to learn a new language")) {
+    return "The best way to learn a new language varies for each individual. However, some effective methods include immersing yourself in the language, practicing regularly, using language learning apps or courses, and engaging in conversation with native speakers.";
+  }else if (lowercaseText.includes("hi")){
+    return "Hello! How Can I Help You Today?"
+  } else if (lowercaseText.includes("what is the capital of a specific country")) {
+    // Handle capital city queries by extracting the country name
+    let countryName = extractCountryName(lowercaseText);
+    if (countryName) {
+      let capitalCity = getCapitalCity(countryName);
+      if (capitalCity) {
+        return "The capital city of " + countryName + " is " + capitalCity + ".";
+      } else {
+        return "I'm sorry, but I couldn't find the capital city for " + countryName + ".";
+      }
+    } else {
+      return "I'm sorry, I couldn't determine the country. Can you please specify the country name?";
+    }
+  } else if (lowercaseText.includes("what is the weather like today")) {
+    // Implement weather API integration to provide current weather information
+    return "I'm sorry, I currently don't have access to real-time weather information. You can check a reliable weather website or use a weather app for accurate weather updates.";
+  }  else {
     return "I'm sorry, I couldn't find an answer to your question. It's always best to consult with a healthcare professional or contact your local blood donation center for accurate and up-to-date information.";
   }
   
