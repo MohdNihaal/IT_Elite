@@ -13,13 +13,10 @@ main div.heading h1 {
 }
 
 main section.ab {
-  margin-top: 40px;
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px 8px 10px #888888;
 }
 
-main section.ab div.left {}
+main section.ab div.left {
+}
 
 main section.ab h2 {
   font-family: "poppins_semibold";
@@ -35,7 +32,7 @@ main section.ab p {
 
 main section.ab img {
   height: 404px;
-  position: relative;
+  position: static;
   top: -127px;
   left: 909px;
   border-radius: 20px;
