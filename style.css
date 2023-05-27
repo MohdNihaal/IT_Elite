@@ -140,8 +140,8 @@ header div.left img{
 #main section.spotlight{
     background: url(../images/bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size: contain;;
+    height: calc( 100vh + 400px );
 }
 #main section.spotlight h1{
     font-family: 'poppins_bold';
@@ -149,4 +149,13 @@ header div.left img{
     color: #fb6394;
     padding-top: 30px;
     padding-left: 50px;
+}
+#about div.video{
+    margin-left: 200px;
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+#about div.video video{
+    width: 80%;
+    border-radius: 20px;
 }

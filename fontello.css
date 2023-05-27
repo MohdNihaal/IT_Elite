@@ -128,7 +128,7 @@ header div.right ul {
   display: flex;
   justify-content: space-between;
 }
-header div.right ul li {
+header div.right ul li a {
   padding-right: 50px;
   font-family: "poppins_meduim";
   color: #fb6394;
