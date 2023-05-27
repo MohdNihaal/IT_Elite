@@ -136,3 +136,17 @@ header div.right ul li{
 header div.left img{
     width: 150px;
 }
+
+#main section.spotlight{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#main section.spotlight h1{
+    font-family: 'poppins_bold';
+    font-size: 40px;
+    color: #fb6394;
+    padding-top: 30px;
+    padding-left: 50px;
+}
