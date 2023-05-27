@@ -1,0 +1,22 @@
+main {}
+
+main div.heading {}
+
+main div.heading h1 {
+  font-family: "poppins_bold";
+  text-align: center;
+  margin-top: 65px;
+  color: #000;
+  font-size: 50px;
+}
+
+main section.ab {
+    margin-top: 40px;
+}
+
+main section.ab h2 {
+  font-family: "poppins_semibold"; 
+    
+}
+
+main section.ab p {}
