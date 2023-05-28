@@ -10,6 +10,7 @@
   margin-bottom: 80px;
   display: flex;
   justify-content: space-between;
+  border-radius: 20px;
 }
 
 #highlights section.wrapper section.item div.img_container {
@@ -19,6 +20,7 @@
 #highlights section.wrapper section.item div.img_container img {
   width: 100%;
   display: block;
+  border-radius: 20px;
 }
 
 #highlights section.wrapper section.item div.content_box {
@@ -40,7 +42,7 @@
   margin-bottom: 24px;
   text-align: center;
   font-family: poppins_semibold;
-  margin-top: 30px;
+  margin-top: 30px; 
 }
 
 #highlights section.wrapper section.item div.content_box p {

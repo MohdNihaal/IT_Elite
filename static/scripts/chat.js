@@ -34,7 +34,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-  let firstMessage = "Hi! What do you need assistance in ( Blood donation and Blooad based )?";
+  let firstMessage = "Hi! What do you need assistance in ( Blood donation and Blood based )?";
   document.getElementById("botStarterMessage").innerHTML =
     '<p class="botText"><span>' + firstMessage + "</span></p>";
 

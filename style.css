@@ -5,7 +5,7 @@
   height: calc(100vh + 400px);
 }
 #main section.spotlight h1 {
-  font-family: "poppins_bold";
+  font-family: "poppins_semibold";
   font-size: 40px;
   color: #fb6394;
   padding-top: 30px;
