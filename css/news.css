@@ -14,5 +14,11 @@ div.right {
     position: relative;    
 }
 .aatw {
-    font-size: 18px;
+    font-size: 28px;
+    color: rgb(0, 8, 255);
+}
+.nota {
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(255, 0, 0);
 }
