@@ -1,5 +1,5 @@
 // Get the video element
-const video = document.getElementById('myVideo');
+const video = document.getElementById("myVideo");
 
 // Set up the Intersection Observer
 const observer = new IntersectionObserver((entries) => {
@@ -31,37 +31,47 @@ function incEltNbr(id) {
 function incNbrRec(i, endNbr, elt) {
   if (i <= endNbr) {
     elt.innerHTML = i;
-    setTimeout(function() {//Delay a bit before calling the function again.
+    setTimeout(function () {
+      //Delay a bit before calling the function again.
       incNbrRec(i + 1, endNbr, elt);
     }, speed);
   }
 }
 
 /*Function called on button click*/
-function incNbr(){
+function incNbr() {
   incEltNbr("nbr");
 }
 const hoverElement = document.getElementById("hover-element");
 
-hoverElement.onmouseover = function() {
+hoverElement.onmouseover = function () {
   // Your function code here
   incEltNbr("nbr");
 };
 
-
-incEltNbr("nbr"); /*Call this funtion with the ID-name for that element to increase the number within*/
-
+incEltNbr(
+  "nbr"
+); /*Call this funtion with the ID-name for that element to increase the number within*/
 
 const observerhi = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry)  
-    if (entry.isIntersecting){
-      entry.target.classList.add('show')
-    } else{
-      entry.target.classList.remove('show')
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
     }
-  })
-})
+  });
+});
 
 const hiddenElements = document.querySelectorAll(".hidden");
-hiddenElements.forEach((el) => observerhi.observe(el))
+hiddenElements.forEach((el) => observerhi.observe(el));
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
