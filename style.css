@@ -75,7 +75,7 @@ nav.main-menu.expanded {
   display: table;
   border-collapse: collapse;
   border-spacing: 0;
-  color: #999;
+  color: #fff;
   font-family: arial;
   font-size: 14px;
   text-decoration: none;
@@ -146,7 +146,7 @@ nav.main-menu li.active > a,
 .no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
 .dashboard-page nav.dashboard-menu ul li.active a {
   color: #fff;
-  background-color: #000000;
+  background-color: #fb6394;
 }
 .area {
   float: left;
