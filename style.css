@@ -58,6 +58,7 @@ nav.main-menu.expanded {
   transition: width 0.05s linear;
   -webkit-transform: translateZ(0) scale(1, 1);
   z-index: 1000;
+  position:fixed;
 }
 
 .main-menu > ul {
@@ -68,6 +69,8 @@ nav.main-menu.expanded {
   position: relative;
   display: block;
   width: 250px;
+  height: 60px;
+  padding-top: 10px;
 }
 
 .main-menu li > a {
@@ -77,11 +80,12 @@ nav.main-menu.expanded {
   border-spacing: 0;
   color: #fff;
   font-family: arial;
-  font-size: 14px;
+  font-size: 24px;
   text-decoration: none;
   -webkit-transform: translateZ(0) scale(1, 1);
   -webkit-transition: all 0.1s linear;
   transition: all 0.1s linear;
+  font-family: poppins_semibold;
 }
 
 .main-menu .nav-icon {
