@@ -7,13 +7,57 @@
     <title>Contact</title>
     <link rel="stylesheet" href="../css/contact.css" />
     <link rel="stylesheet" href="../fontello.css" />
+    <link rel="stylesheet" href="../static/css/chat.css">
+    <link rel="stylesheet" href="../static/css/home.css">
   </head>
   <body>
     <section id="main">
+      <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <img src="../images/send.png" style="width: 20px;margin-top: 14px;" alt="">
+        </button>
+  
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+  
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message"  style="margin-right: 10px;">
+                                <p></p>
+                            </div>
+  
+                            <div class="chat-bar-icons">
+                                <img src="../images/send.png" style="width: 20px;margin-top: 14px;" alt="" id="chat-icon"
+                                onclick="sendButton()">
+                            </div>
+                        </div>
+  
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+  
+                    </div>
+                </div>
+  
+            </div>
+        </div>
+  
+    </div>
       <section class="wrapper">
         <header>
           <div class="left">
-            <img src="./images/icon-removebg-preview.png" alt="icon" height="150px" width="145px"/>
+              <img src="/images/icon-removebg-preview.png" alt="icon" height="150px" width="145px"/>
+
 
           </div>
           <div class="right">
@@ -38,64 +82,29 @@
             <div class="left">
                 <br>
 
-                <h3>Ready To Get <br> Started?</h3>
+                <h3>Do Your <br> Donations</h3>
                 <br>
                 <br>
                 <br>
-                <p>Schedule a demo of our <br> online video editor <br> to start making your own <br>
-                    short form videos today. <br> We'll help
-                    you elevate your <br> video content
-                    strategy.</p>
+                <p>Your donation can make a world of difference<br> for someone in need. Just a single blood donation can potentially  <br>save up to three lives.Imagine the hope and relief you can  <br> bring to patients and their families by sharing a part of yourself. <br> By donating blood, you become a true hero,<br> offering the gift of life to those who are suffering.</p>
                 <br>
                 <p>-------------------</p>
                 <div class="testimonial">
                     <br>
-                    <h5>Why Do Content Creators Choose Wibbitz?</h5>
+                    <h5>The Critical Importance of Blood Donations</h5>
                     <div class="content">
                         <br>
-                        <blockquote>"Wibbitz strengthens the communications <br> strategy at our company
-                            by allowing us <br> to produce more videos, faster, while <br> maintaining fop
-                            Yes, I'd like to receive <br> occasional marketing
-                            level of quality."</blockquote>
+                        <blockquote>"Blood donations are crucial for a variety<br> of life-saving medical procedures and treatments. <br> Unfortunately, the demand for blood <br> is constant, and the <br> supply often falls short."</blockquote>
                         <br>
                         <br>
-                        <h6>Jeff Cucinell</h6>
-                        <span class="role">Director of Social Strategy, iHeartRadio</span>
+                        <h6>Muhd. Nihal KS</h6>
+                        <span class="role">Founder and CEO, Drop.io</span>
                         <br>
                         <br>
-                        <ul class="people">
-                            <li class="active">
-                                <img src="images/profile1.jpg" alt="profile1">
-                            </li>
-                            <li>
-                                <img src="images/profile2.jpg" alt="profile2">
-                            </li>
-                            <li>
-                                <img src="images/profile3.jpg" alt="profile3">
-                            </li>
-                            <li>
-                                <img src="images/profile4.jpg" alt="profile4">
-                            </li>
-                        </ul>
                         <br>
                         <p>------------------------</p>
                     </div>
-                    <div class="companies">
-                        <ul>
-                            <li>
-                                <img src="images/att_white_L.svg" alt="att_white_L">
-                            </li>
-                            <li>
-                                <img src="images/bertelsmann_white_L.svg" alt="bertelsmann_white_L">
-                            </li>
-                            <li>
-                                <img src="images/bloomberg_white_L.svg" alt="bloomberg_white_L">
-                            </li>
-                            <li>
-                                <img src="images/hubspot_white_L.svg" alt="">
-                            </li>
-                        </ul>
-                    </div>
+                   
                 </div>
             </div>
 
@@ -105,34 +114,43 @@
                 <h4>Help us Get To Know You</h4>
                 <form action="#">
                     <div class="one_by_two">
-                        <input type="text" name="ce" id="ce" placeholder="Work Email">
+                        <input type="text" name="ce" id="ce" placeholder="Email">
                         <input type="text" name="ln" id="fn" placeholder="First name">
                         <input type="text" name="ln" id="ln" placeholder="Last name">
-                        <input type="text" name="ln" id="cmp" placeholder="Company">
+                        <input type="text" name="ln" id="cmp" placeholder="Date of Birth">
+                        <input type="text" name="ce" id="ce" placeholder="Pincode">
 
                     </div>
                     <div class="one_by_two">
                         <select>
-                            <option value="" disabled selected>Company size</option>
+                            <option value="" disabled selected>Health Condition</option>
+                            <option value=""d>Good</option>
+                            <option value=""d>Better</option>
+                            <option value=""d>Bad</option>
+                            <option value=""d>Worst</option>
+
                         </select>
                         <select class="in">
-                            <option value="" disabled selected>Industry</option>
+                          <option value="" disabled selected>Blood Group</option>
+                            <option value=""d>A+</option>
+                            <option value=""d>B+</option>
+                            <option value=""d>AB+</option>
+                            <option value=""d>O+</option>
+                            <option value=""d>A-</option>
+                            <option value=""d>B-</option>
+                            <option value=""d>AB-</option>
+                            <option value=""d>O-</option>
                         </select>
                         <select class="jr">
-                            <option value="" disabled selected>Job Role</option>
-                        </select>
-                        <select class="count">
-                            <option value="" disabled selected>Country
-                            <option>
-                        </select>
+                          <option value="" disabled selected>Any Tattoos?</option>
+                            <option value=""d>Yes</option>
+                            <option value=""d>No</option>
                     </div>
                 </form>
-                <div class="full">
-                    <input type="checkbox" name="check" id="check">
-                    <p>Yes, I'd like to receive occasional marketing emails from <br> Wibbitz.I have the right to opt
-                        out any time. <a href="#">View privacy policy.</a></p>
+                <br>
+              </br>
                     <div class="full1">
-                        <input type="submit" class="sub" value="Get a Demo">
+                        <input type="submit" class="sub" value="Submit">
                     </div>
                 </div>
             </div>
@@ -140,4 +158,7 @@
     </section>
 
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+      <script src="../static/scripts/response.js"></script>
+      <script src="../static/scripts/chat.js"></script>
 </html>

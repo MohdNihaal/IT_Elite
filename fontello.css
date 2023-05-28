@@ -54,9 +54,6 @@ p {
   font-size: 16px;
   font-weight: 400;
 }
-.hidden {
-  display: none;
-}
 br.clear {
   clear: both;
   line-height: 0;
@@ -134,4 +131,23 @@ header div.right ul li a {
 }
 header div.left img {
   width: 150px;
+}
+
+
+.hidden{
+  opacity: 0;
+  filter: blur(1px);
+  transform: translateX(-100%);
+  transition: all 3s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.hi:nth-child() {
+  transition-delay: 200ms;
+}
+.hi:nth-child() {
+  transition-delay: 400ms;
 }

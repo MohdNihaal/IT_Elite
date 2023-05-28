@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./fontello.css" />
+    <link rel="stylesheet" href="./static/css/chat.css">
+    <link rel="stylesheet" href="./static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Drop</title>
   </head>
   <body>
@@ -20,51 +24,13 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="./html/about.html">About</a></li>
               <li><a href="./html/contact.html">Contact</a></li>
-              <li><a href="/html/news.html">News</a></li>
+              <li><a href="./html/news.html">News</a></li>
             </ul>
           </div>
         </header>
       </section>
 
-      <div class="header">
-        <div class="side-nav">
-            <a href="#" class="menu">
-                <!-- <img src="#" class="menu-img"> -->
-            </a>
-            <ul class="nav-links">
-                <li><a href="./index.html0">
-                        <i class="fa-solid fa-house-user"></i>
-                        <p>Dashboard</p>
-                    </a>
-                </li>
-                <li><a href="./html/news.html">
-                        <i class="fa-solid fa-comment-dots"></i>
-                        <p>News and events</p>
-                    </a>
-                </li>
-                <li><a href="./html/benefits.html">
-                        <i class="fa-solid fa-user"></i>
-                        <p>Benefits</p>
-                    </a>
-                </li>
-                <li><a href="#">
-                        <i class="fa-solid fa-box-open"></i>
-                        <p>Rewards</p>
-                    </a>
-                </li>
-                <li><a href="#">
-                        <i class="fa-solid fa-chart-pie"></i>
-                        <p>Report</p>
-                    </a>
-                </li>
-                <li><a href="#">
-                        <i class="fa-solid fa-screwdriver-wrench"></i>
-                        <p>Setting</p>
-                    </a>
-                </li>
-                <div class="active"></div>
-            </ul>
-        </div>
+      
     </div>
 
       <section class="spotlight">
@@ -77,11 +43,51 @@
           <div id="hover-element">
             <p id="nbr">18540000</p>
             <h5> << People Donated so far!</h5>
-        </div>
-          
+          </div>
         </section>
       </section>
     </section>
+    <div class="chat-bar-collapsible">
+      <button id="chat-button" type="button" class="collapsible">Chat with us!
+          <img src="./images/send.png" style="width: 20px;margin-top: 14px;" alt="">
+      </button>
+
+      <div class="content">
+          <div class="full-chat-block">
+              <!-- Message Container -->
+              <div class="outer-container">
+                  <div class="chat-container">
+                      <!-- Messages -->
+                      <div id="chatbox">
+                          <h5 id="chat-timestamp"></h5>
+                          <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                      </div>
+
+                      <!-- User input box -->
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="textInput" class="input-box" type="text" name="msg"
+                                  placeholder="Tap 'Enter' to send a message"  style="margin-right: 10px;">
+                              <p></p>
+                          </div>
+
+                          <div class="chat-bar-icons">
+                              <img src="./images/send.png" style="width: 20px;margin-top: 14px;" alt="" id="chat-icon"
+                              onclick="sendButton()">
+                          </div>
+                      </div>
+
+                      <div id="chat-bar-bottom">
+                          <p></p>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+  </div>
     <section id="vid">
         <div class="video">
       <video id="myVideo" src="./video/video.mp4" autoplay muted loop></video>
@@ -92,7 +98,7 @@
     <section id="products">
         <section class="wrapper">
             <ul>
-                <li class="one">
+                <li class="one hidden hi">
                     <div class="logo">
                         <img src="images/logo.jpg" alt="Studio-icon">
                     </div>
@@ -103,7 +109,7 @@
                     <a href="https://en.wikipedia.org/wiki/Blood_donation#:~:text=Many%20donors%20donate%20for%20several,or%20relative%2C%20and%20social%20pressure." class="button">Learn More</a>
                     <img src="images/product_img.jpg" alt="studio-card" class="hero">
                 </li>
-                <li class="two">
+                <li class="two hidden hi">
                     <div class="logo">
                         <img src="images/logo2.jpg" alt="Studio-icon" class="icon">
                     </div>
@@ -115,7 +121,7 @@
                     <img src="images/product_img_2.jpg" alt="studio-card" class="hero">
                 </li>
 
-                <li class="three">
+                <li class="three hidden hi">
                     <div class="logo">
                         <img src="images/logo3.jpg" alt="Studio-icon">
                     </div>
@@ -130,7 +136,10 @@
         </section>
     </section>
     <section id="about">
-      <section class="wrapper">
+      <h1>
+        About | Donation
+      </h1>
+       <section class="wrapper">
         <div class="left">
           <p>Blood donation is a selfless act that involves voluntarily giving a vital gift to those in need. By donating blood, individuals contribute to saving lives, supporting medical treatments, and promoting community health. Additionally, blood donation offers several benefits for both the recipients and the donors themselves.</p>
           <p>The demand for blood is constant, as it is a crucial component in various medical procedures, emergency situations, and ongoing treatments for patients with serious illnesses. Without an adequate and safe blood supply, medical facilities would struggle to meet the needs of patients in critical conditions. By donating blood, you become an essential link in the chain of lifesaving support.</p>
@@ -142,6 +151,10 @@
         </div>
       </section>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="static/scripts/response.js"></script>
+    <script src="static/scripts/chat.js"></script>
     <script src="./js/script.js"></script>
   </body>
+  
 </html>

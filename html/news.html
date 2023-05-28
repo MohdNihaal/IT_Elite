@@ -1,42 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/news.css">
-    <link rel="stylesheet" href="../fontello.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/news.css" />
+    <link rel="stylesheet" href="../fontello.css" />
+    <link rel="stylesheet" href="../static/css/chat.css">
+    <link rel="stylesheet" href="../static/css/home.css">
     <title>Document</title>
 </head>
 <body>
     <div class="main">
-        <section class="wrapper">
-            <header>
-            <div class="left">
-               <a href="../index.html"><img src="../images/icon-removebg-preview.png" alt="icon" /></a> 
+      <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <img src="../images/send.png" style="width: 20px;margin-top: 14px;" alt="">
+        </button>
+  
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+  
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message"  style="margin-right: 10px;">
+                                <p></p>
+                            </div>
+  
+                            <div class="chat-bar-icons">
+                                <img src="../images/send.png" style="width: 20px;margin-top: 14px;" alt="" id="chat-icon"
+                                onclick="sendButton()">
+                            </div>
+                        </div>
+  
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+  
+                    </div>
+                </div>
+  
             </div>
-            <div class="right">
-                <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./news.html">News</a></li>
-                </ul>
-            </div>
-            </header>
-        </section>   
-        <div class="main">
-            <div class="left">
-                <h1>News</h1>
-            </div>
-            <div class="oneimg">
-                <img src="../images/okthumb.jpeg" alt="" id="imgone">
         </div>
-        <div class="right">
-          <pre>Mega blood donation camp at CKT College 
-            in Panvel to mark Savarkar's
-             birth anniversary on May 28</pre>
-        </div>
-    </div>    
-</body>
+  
+    </div>
+      <section class="wrapper">
+        <header>
+          <div class="left">
+            <img src="/images/icon-removebg-preview.png" alt="icon" height="150px" width="145px"/>
+
+          </div>
+          <div class="right">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./news.html">News</a></li>
+            </ul>
+          </div>
+        </header>
+      </section>
+    </div>
+    <div class="main">
+      <div class="left">
+        <h1>News</h1>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+      <script src="../static/scripts/response.js"></script>
+      <script src="../static/scripts/chat.js"></script>
 </html>

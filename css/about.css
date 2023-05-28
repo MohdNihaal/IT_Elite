@@ -38,19 +38,24 @@
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 24px;
+  text-align: center;
+  font-family: poppins_semibold;
+  margin-top: 30px;
 }
 
-#highlights section.wrapper div.item div.content_box p {
+#highlights section.wrapper section.item div.content_box p {
   font-size: 20px;
   margin-bottom: 24px;
+  font-family: poppins_meduim;
+  margin-left: 50px;
 }
 
-#highlights section.wrapper div.item div.content_box a.button {
+#highlights section.wrapper section.item div.content_box a.button {
   font-size: 16px;
   color: #0053cc;
 }
 
-#highlights section.wrapper div.item div.content_box a.button img {
+#highlights section.wrapper section.item div.content_box a.button img {
   display: inline-block;
 }
 
@@ -89,17 +94,17 @@
   margin-bottom: 24px;
 }
 
-#highlights section.wrapper div.item div.content_box p {
+#highlights section.wrapper section.item div.content_box p {
   font-size: 20px;
   margin-bottom: 24px;
 }
 
-#highlights section.wrapper div.item div.content_box a.button {
+#highlights section.wrapper section.item div.content_box a.button {
   font-size: 16px;
   color: #0053cc;
 }
 
-#highlights section.wrapper div.item div.content_box a.button img {
+#highlights section.wrapper section.item div.content_box a.button img {
   display: inline-block;
 }
 
