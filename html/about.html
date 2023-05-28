@@ -7,6 +7,8 @@
     <title>About</title>
     <link rel="stylesheet" href="../css/about.css" />
     <link rel="stylesheet" href="../fontello.css" />
+    <link rel="stylesheet" href="../static/css/chat.css">
+    <link rel="stylesheet" href="../static/css/home.css">
   </head>
   <body>
     <section id="main">
@@ -25,12 +27,53 @@
             </ul>
           </div>
         </header>
+
       </section>
     </section>
 
     <section id="highlights">
         <section class="wrapper">
-          
+          <div class="chat-bar-collapsible">
+      <button id="chat-button" type="button" class="collapsible">Chat with us!
+          <img src="../images/send.png" style="width: 20px;margin-top: 14px;" alt="">
+      </button>
+
+      <div class="content">
+          <div class="full-chat-block">
+              <!-- Message Container -->
+              <div class="outer-container">
+                  <div class="chat-container">
+                      <!-- Messages -->
+                      <div id="chatbox">
+                          <h5 id="chat-timestamp"></h5>
+                          <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                      </div>
+
+                      <!-- User input box -->
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="textInput" class="input-box" type="text" name="msg"
+                                  placeholder="Tap 'Enter' to send a message"  style="margin-right: 10px;">
+                              <p></p>
+                          </div>
+
+                          <div class="chat-bar-icons">
+                              <img src="../images/send.png" style="width: 20px;margin-top: 14px;" alt="" id="chat-icon"
+                              onclick="sendButton()">
+                          </div>
+                      </div>
+
+                      <div id="chat-bar-bottom">
+                          <p></p>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+  </div>
           </main>
 
 
@@ -73,4 +116,7 @@
       </div>
       </section>
       </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+      <script src="../static/scripts/response.js"></script>
+      <script src="../static/scripts/chat.js"></script>
 </html>

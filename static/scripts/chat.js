@@ -109,6 +109,26 @@ function getBotResponse(userText) {
 
 if (lowercaseText.includes("what are the different types of blood donations")) {
     return "There are several types of blood donations, including: 1) Whole Blood Donation: The most common type, where a unit of whole blood is collected. 2) Platelet Donation: A procedure to collect platelets, which are important for clotting. 3) Plasma Donation: In this type, only plasma is collected, while other blood components are returned to the donor. 4) Double Red Cell Donation: This type collects red blood cells while returning the plasma and platelets to the donor.";
+  }if (lowercaseText.includes("what is blood donation")) {
+    return "Blood donation is the process of voluntarily giving blood to be used for transfusion to patients in need. It is a selfless act that helps save lives and improve health outcomes.";
+  } else if (lowercaseText.includes("who can donate blood")) {
+    return "Generally, individuals who are in good health, meet the minimum age and weight requirements, and don't have certain medical conditions can donate blood. However, eligibility criteria may vary by country and blood donation center.";
+  } else if (lowercaseText.includes("what is blood donation")) {
+    return "Blood donation is the process of voluntarily giving blood to be used for transfusion to patients in need. It is a selfless act that helps save lives and improve health outcomes.";
+  } else if (lowercaseText.includes("how often can i donate blood")) {
+    return "The frequency of blood donation depends on various factors, including the type of donation (whole blood or specific components), your overall health, and local regulations. In most cases, individuals can donate whole blood every 8 to 12 weeks, while other donation types may have different time intervals.";
+  } else if (lowercaseText.includes("what are the benefits of blood donation")) {
+    return "Blood donation has several benefits, including: 1) Helping save lives by providing blood for transfusions to individuals in need. 2) Stimulating the production of new blood cells, which can improve overall health. 3) Reducing the risk of certain health conditions, such as iron overload, by maintaining iron levels in the body. 4) Receiving a free health screening, including tests for blood pressure, hemoglobin levels, and infectious diseases.";
+  } else if (lowercaseText.includes("how long does a blood donation take")) {
+    return "The duration of a blood donation can vary, but it typically takes about 10 to 15 minutes for the actual blood collection process. The entire donation process, including registration, screening, and post-donation refreshments, usually takes around 45 minutes to an hour.";
+  } else if (lowercaseText.includes("what should I do before donating blood")) {
+    return "Before donating blood, it's important to: 1) Eat a nutritious meal and stay hydrated. 2) Get a good night's sleep. 3) Avoid alcohol and caffeinated beverages before the donation. 4) Bring a valid ID and any required documentation. 5) Disclose any relevant medical information during the screening process. Remember to follow the specific guidelines provided by your blood donation center.";
+  } else if (lowercaseText.includes("is blood donation safe")) {
+    return "Yes, blood donation is generally safe. Blood donation centers follow strict protocols to ensure donor safety and the safety of the donated blood. Donated blood goes through screening processes to detect infectious diseases. Additionally, trained healthcare professionals handle the donation process to minimize any risks.";
+  } else if (lowercaseText.includes("can I donate blood if I have a tattoo or piercing")) {
+    return "In many cases, having a tattoo or piercing does not automatically disqualify you from donating blood. However, some blood donation centers may have specific guidelines regarding recent tattoos or piercings. It's best to check with your local blood donation center to determine their policies.";
+  } else if (lowercaseText.includes("what happens to donated blood")) {
+    return "Donated blood goes through a series of steps before it is used for transfusions. After collection, the blood is tested for blood type, infectious diseases, and other markers. It is then processed into different blood components, such as red blood cells, platelets, and plasma. These components are stored appropriately and distributed to hospitals and healthcare facilities when needed.";
   } else if (lowercaseText.includes("what happens during a blood donation")) {
     return "During a blood donation, a healthcare professional will: 1) Cleanse the donation site. 2) Insert a sterile needle to collect blood. 3) Allow the blood to flow into a collection bag or container. 4) Monitor the donor's well-being throughout the process. 5) Provide post-donation care, such as applying a bandage and offering refreshments.";
   } else if (lowercaseText.includes("who benefits from blood donations")) {
@@ -213,6 +233,10 @@ if (lowercaseText.includes("what are the different types of blood donations")) {
     let today = new Date();
     let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     return "Today's date is " + today.toLocaleDateString(undefined, options) + ".";
+  } else if (lowercaseText.includes("what is todays date")) {
+    let today = new Date();
+    let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    return "Today's date is " + today.toLocaleDateString(undefined, options) + ".";
   } else if (lowercaseText.includes("thank you")) {
     return "You're welcome! If you have any more questions, feel free to ask.";
   } else if (lowercaseText.includes("goodbye") || lowercaseText.includes("bye")) {
@@ -278,7 +302,7 @@ if (lowercaseText.includes("what are the different types of blood donations")) {
     } else {
       return "I'm sorry, I couldn't determine the country. Can you please specify the country name?";
     }
-  } else if (lowercaseText.includes("what is the weather like today")) {
+  } else if (lowercaseText.includes("what is the weather today")) {
     // Implement weather API integration to provide current weather information
     return "I'm sorry, I currently don't have access to real-time weather information. You can check a reliable weather website or use a weather app for accurate weather updates.";
   }  else {
