@@ -67,13 +67,13 @@ const observerhi = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observerhi.observe(el))
 
-
 function redirect(event) {
   // Prevent the default form submission
   event.preventDefault();
 
   // Redirect to a new URL
-  window.location.href = "http://127.0.0.1:5500/";
+  // window.location.href = "https";
+  windows.location("http://127.0.0.1:5500/");
 }
 
 var myDiv = document.getElementById("myDiv");
