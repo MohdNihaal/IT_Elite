@@ -1,6 +1,9 @@
   h1 {
     margin: 0;
-    font-size: 32px;
+    font-size: 38px;
+    font-family: poppins_extra_bold;
+    margin-left: 35%;
+    margin-bottom: 60px;
   }
   
   main {
@@ -8,10 +11,30 @@
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 29px;
+    font-family: poppins_bold;
+    margin-bottom: 20px;
+    color: rgb(0, 8, 255);
   }
   
   p {
     font-size: 18px;
     line-height: 1.5;
+    font-family: poppins_regular;
+    margin-bottom: 30px;
+  }
+  section.benefit {
+
+  }
+  section.benefit ul{
+
+  }
+  section.benefit ul li{
+
+  }
+  section.benefit ul li h2{
+    font-family: poppins_bold;
+  }
+  section.benefit ul li p{
+    font-family: poppins_regular;
   }

@@ -33,7 +33,8 @@ select {
 }
 
 a {
-  color: #1c2c40;
+  color: #fff;
+  font-family: "poppins_meduim";
 }
 a:hover,
 .submit:hover {
@@ -161,11 +162,37 @@ header div.left h1{
 }
 
 footer{
-  height: 90vh;
+  height: 50vh;
   background: #000;
 }
-footer div.right form div.form input{
+footer section.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+footer section.right{
+  display: flex;
+  justify-content: space-between;
+}
+footer section.right ul h3{
+  color: white;
+  font-family: "poppins_bold";
+  font-size: 26px;
+}
+footer section.right ul{
+  margin-right: 60px;
+  margin-top: 60px;
+}
+footer section.right ul li{
   color: #fff;
+  font-family: "poppins_meduim";
+}
+footer section.left{
 
-  background: #fff;
+}
+footer section.left h1{
+  font-family: "poppins_extra_bold";
+  color: #fff;
+  font-size: 36px;
+  margin-left: 60px;
+  margin-top: 60px;
 }

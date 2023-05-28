@@ -68,7 +68,7 @@ const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observerhi.observe(el))
 
 
-function redirect() {
+function redirect(event) {
   // Prevent the default form submission
   event.preventDefault();
 
