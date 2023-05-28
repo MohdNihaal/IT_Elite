@@ -99,7 +99,7 @@ nav.main-menu.expanded {
   display: table-cell;
   vertical-align: middle;
   width: 190px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "poppins_regular";
 }
 
 .main-menu > ul.logout {
