@@ -17,12 +17,28 @@ div.right {
     font-size: 28px;
     color: rgb(0, 8, 255);
 }
-.nota {
-    font-weight: bold;
-    font-size: 28px;
-    color: rgb(255, 0, 0);
+
+#main div h1{
+    font-family: poppins_bold;
+    font-size: 52px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
-#main {}
-
-#main  {}
+#main ul li{
+    
+}
+#main ul li a{
+    font-size: 28px;
+    font-family: poppins_semibold;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+#main ul li p{
+    font-family:poppins_meduim;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#main ul li img{
+    border-radius: 18px;
+}
