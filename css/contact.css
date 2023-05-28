@@ -16,10 +16,12 @@
 	margin-top: 5%;
 	font-weight: bolder;
 	font-size: 48px;
+	font-family: poppins_semibold;
 }
 
 #contact section.wrapper div.left p {
 	color: #9b9b9b;
+	font-family: poppins_meduim;
 }
 
 #contact section.wrapper div.left div.testimonial {}
@@ -27,6 +29,7 @@
 #contact section.wrapper div.left div.testimonial h5 {
 	font-weight: bold;
 	font-size: 20px;
+	font-family: poppins_semibold;
 }
 
 #contact section.wrapper div.left div.testimonial div.content {}

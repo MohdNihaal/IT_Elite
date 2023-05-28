@@ -63,8 +63,13 @@ nav.main-menu.expanded {
 
 .main-menu > ul {
   margin: 7px 0;
+  text-align: center;
+  margin-right: 10px;
 }
-
+.main-menu img{
+  margin-left: 13px;
+  margin-top: 20px;
+}
 .main-menu li {
   position: relative;
   display: block;
@@ -106,6 +111,7 @@ nav.main-menu.expanded {
   width: 190px;
   font-family: "poppins_semibold";
   color: #000;
+  margin-right: 10px;
 }
 
 .main-menu > ul.logout {
