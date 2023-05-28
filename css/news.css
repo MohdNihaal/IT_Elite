@@ -1,7 +1,6 @@
-.wrapper header {
-
+.main {
+    background: linear-gradient(rgb(77, 77, 194),rgb(93, 181, 16));  
 }
-
 .oneimg {
     display: flex;
     justify-content: center;
@@ -9,4 +8,14 @@
 }
 #imgone {
     height: 70vh;
+}
+.left h1 {
+    text-align: center;
+}
+div.right {
+    position: relative;    
+}
+p {
+    position: absolute;
+    top: -500px;
 }
