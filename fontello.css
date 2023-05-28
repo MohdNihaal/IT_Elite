@@ -116,6 +116,7 @@ br.clear {
 header {
   display: flex;
   justify-content: space-between;
+  background-color: #fff;
 }
 header div.right {
   margin-top: 60px;
@@ -132,7 +133,15 @@ header div.right ul li a {
 header div.left img {
   width: 150px;
 }
-
+header div.left{
+  display: flex;
+  cursor: pointer;
+}
+header div.left h1{
+  font-family: poppins_extra_bold;
+  font-size: 34px;margin-top: 50px;
+  color: #fb6394;
+}
 
 .hidden{
   opacity: 0;
@@ -150,4 +159,14 @@ header div.left img {
 }
 .hi:nth-child() {
   transition-delay: 400ms;
+}
+
+footer{
+  height: 90vh;
+  background: #000;
+}
+footer div.right form div.form input{
+  color: #fff;
+
+  background: #fff;
 }

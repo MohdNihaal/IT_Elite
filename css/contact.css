@@ -67,16 +67,23 @@
 #contact section.wrapper div.left div.testimonial div.companies ul li {}
 
 #contact section.wrapper div.left div.testimonial div.companies ul li img {}
-
+#contact section.wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-top: -250px;
+}
+#contact{
+	height: 550px;
+	margin-bottom: 30px;
+}
 #contact section.wrapper div.right {
 	border: 1px solid #fff;
 	background: #fff;
 	width: 44%;
-	position: relative;
-	top: -795px;
-	left: 423px;
 	border-radius: 10px;
 	height: 484px;
+	margin-top: 30px;
+	margin-right: 50px;
 }
 
 #contact section.wrapper div.right h4 {
@@ -85,13 +92,17 @@
 	margin-bottom: 40px;
 	margin-left: 40px;
 	font-weight: bold;
+	font-family: poppins_extra_bold;
+	font-size: 29px;
 }
 
 #contact section.wrapper div.right form {
 	margin-left: 27px;
 }
 
-#contact section.wrapper div.right form div.one_by_two {}
+#contact section.wrapper div.right form div.one_by_two.idk {
+	margin-bottom: 50px;
+}
 
 #contact section.wrapper div.right form div.one_by_two input {
 	border: 1px solid #000;
@@ -99,17 +110,26 @@
 	padding: 10px 23px;
 	margin-bottom: 20px;
 	margin-left: 10px;
+	font-family: poppins_meduim;
 }
 
 #contact section.wrapper div.right form div.one_by_two select {
-	color: #000;
 	border: 1px solid #000;
-	padding: 10px 47px;
+	border-radius: 10px;
+	padding: 10px 23px;
 	margin-bottom: 20px;
-	margin-left: 11px;
+	margin-left: 10px;
+	font-family: poppins_meduim;
 }
 
 #contact section.wrapper div.right form div.one_by_two select option {
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px 23px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-family: poppins_meduim;
+	color: #757575;
 }
 
 #contact section.wrapper div.right form div.one_by_two select.in {
