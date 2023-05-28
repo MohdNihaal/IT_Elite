@@ -116,7 +116,6 @@ br.clear {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #fff;
 }
 header div.right {
   margin-top: 60px;
