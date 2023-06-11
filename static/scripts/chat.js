@@ -139,7 +139,7 @@ if (lowercaseText.includes("what are the different types of blood donations")) {
     return "Blood type is determined by the presence or absence of specific antigens on red blood cells. ABO blood typing determines the presence of A and B antigens, while Rh typing determines the presence of the Rh antigen.";
   } else if (lowercaseText.includes("what is the universal blood donor")) {
     return "People with O negative (O-) blood type are considered universal donors. Their blood can be transfused to individuals of any blood type. O- blood type is in high demand during emergencies when the patient's blood type is unknown or in short supply.";
-  } else if (lowercaseText.includes("what is the universal blood recipient")) {
+  } else if (lowercaseText.includes("what is the universal   blood recipient")) {
     return "People with AB positive (AB+) blood type are considered universal recipients. They can receive blood from individuals of any blood type. AB+ blood type is in high demand for plasma donations.";
   } else if (lowercaseText.includes("how long does it take to replenish donated blood")) {
     return "The body replenishes donated blood relatively quickly. The volume of plasma is restored within 24-48 hours, while red blood cells are replaced within a few weeks. However, it may take several weeks or months for the body to fully restore iron levels.";
